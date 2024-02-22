@@ -1,6 +1,6 @@
 {
-    "name": "stackblitz-starters-zlqqgo",
-    "version": "0.0.0",
+    "name": "stackblitz-starters-zlqqgo",             
+    "version": "0.0.0",                               
     "private": true,
     "dependencies": {
       "react": "18.2.0",
@@ -8,13 +8,27 @@
       "@types/react": "18.2.57",
       "@types/react-dom": "18.2.19"
     },
+
     "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test --env=jsdom",
-      "eject": "react-scripts eject"
+      "start":    "react-scripts start",                 
+      "build":    "react-scripts build",                 
+      "test":     "react-scripts test --env=jsdom",
+      "eject":    "react-scripts eject" ,
+
+      "watch":            "tsc -watch -p ./",
+      "compile":          "tsc -p ./",
+      "lite-server":      "lite-server"
+    },
+    "keywords": [
+      "REACT"
+    ],
+    "author": "DHE",
+    "license": "MIT",
+    "directories": {
+      "lib": "lib"
     },
     "devDependencies": {
-      "react-scripts": "latest"
-    }
+      "typescript": "^5.3.3"
+    },
+    "description": "REACT First Stepps"
   }
