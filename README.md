@@ -9,3 +9,7 @@
 
 ## REACT Programm starten
 
+>> npx create-react-app first-component
+
+>> cd first-component
+>> npm start
